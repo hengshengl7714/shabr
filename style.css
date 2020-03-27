@@ -1,0 +1,15 @@
+body{
+font-family: 'Merriweather', serif;
+}
+#heading-div{
+background-color:#D94E2C;
+}
+#heading{
+text-align:center;
+color:white;
+}
+#slogan{
+text-align:center;
+color:white;
+font-size:20px;
+}
