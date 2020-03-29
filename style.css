@@ -56,10 +56,23 @@ margin-bottom:20px;
 #participation{
 font-weight:bold;
 }
+#weather-view{
+width:48%;
+}
 .view{
-width:49vw;
+width:100vw;
+display:inline-block;
+}
+@media (min-width: 722px){
+.view{
+width:48vw;
+}
+@media (min-width: 1920px){
+.view{
+width:23vw;
 }
 }
-@media (min-width: 1080px){
-
+img{
+max-width: 100%;
+height: auto;
 }
