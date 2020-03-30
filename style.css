@@ -76,3 +76,24 @@ img{
 max-width: 100%;
 height: auto;
 }
+#testimonials-heading{
+padding:20px;
+background-color:#D94E2C;
+color:white;
+font-size:50px;
+font-weight:bold;
+margin-bottom:15px;
+}
+#testmonials-slogan{
+color:white;
+font-size:20px;
+margin-top:30px;
+}
+#contact{
+padding:20px;
+background-color:#D94E2C;
+color:white;
+font-size:50px;
+font-weight:bold;
+margin-bottom:15px;
+}
