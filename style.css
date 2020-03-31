@@ -82,16 +82,16 @@ background-color:#D94E2C;
 color:white;
 font-size:50px;
 font-weight:bold;
-margin-bottom:15px;
+margin-bottom:10px;
 }
 #testmonials-slogan{
-color:white;
+color:white !important;
 font-size:20px;
-margin-top:30px;
+margin-top:25px;
 }
 #contact{
 padding:10px;
-color:white;
+color:white !important;
 font-size:50px;
 font-weight:bold;
 margin-bottom:15px;
