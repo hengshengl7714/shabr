@@ -46,13 +46,15 @@
         </div>
       </nav>
     </div>
-    <div class="alert alert-danger" role="alert">
-      Warning: SHABR's response to COVID-19 -- <a href="#" class="alert-link">Message</a>.
-      <button type="button" class="close" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
+    <div class="alert alert-danger" role="alert" id="alert">
+      Warning: SHABR's response to COVID-19 --<a data-toggle="collapse" href="#Message" role="button" aria-expanded="false" aria-controls="collapseExample">Message</a>.
+    <div class="collapse" id="Message">
+      <div class="card card-body">
+        <p>As COVID-19 continues to impact the world, we’ve made the decision to extend the temporary closure. As soon as we have a new opening date, we’ll let you know. </p>
+      </div>
     </div>
-    <div class="heading-div">
+    </div>
+    <div class="heading-div" id="heading-padding">
     <h1 id="heading">Skydance Hot Air Balloon Rides</h2>
     <p id="slogan"><strong>Ride</strong> with the <i>wind</i>. <strong>Dance</strong> with the <i>sky</i>.</p>
     </div>
@@ -96,7 +98,7 @@
     </div>
     <div class="heading-div" id="sign-up">
       <form>
-        <div class="form-group row">
+        <div class="form-group row" id="form-margin">
           <label class="col-sm-3 col-form-label" id="latest-deal" style="margin-top:15px">Get the latest deals and more.</label>
           <label for="inputEmail" class="col-sm-1 col-form-label" id="email"style="margin-top:35px">Email</label>
           <div class="col-sm-4">
